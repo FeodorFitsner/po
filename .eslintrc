@@ -1,0 +1,13 @@
+{
+  "parser": "eslint",
+  "extends": "airbnb/base",
+  "rules": {
+    "no-unused-vars": 1,
+    "comma-dangle": [2, "never"]
+  },
+  "globals": {
+    "browser": true,
+    "describe": true,
+    "it": true
+  }
+}
