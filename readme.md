@@ -1,7 +1,14 @@
 # Webdriverio running on Appveyor
 Using node 5.5.0 to support ES6 feature without using babel.
-All tests are running, but throw an error on session end.
-`ERROR: Can't obtain updateLastError method for class com.sun.jna.Native`
+All tests are running, but throw a selenium-standalone error on session end.
+```
+ERROR: Can't obtain updateLastError method for class com.sun.jna.Native
+```
+
+[Appveyor]
+
+[Appveyor]: https://ci.appveyor.com/project/RainerAtSpirit/po
+
 
 # Page Object Example
 
